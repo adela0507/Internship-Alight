@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(247, 224, 193);
+    padding: 10px;
+}
+
+.link-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:antiquewhite;
+    color:brown;
+    text-decoration: none;
+    align-items: center;
+}
+
+.link-btn:hover {
+    background-color: #ccc;
+}
+
+h1,h2,h3,h4,h6 {
+    color:tan;
+    text-align: center;
+}
+.footer {
+    font-size: 20px;
+    color:black;
+    height: 6rem;
+    flex-direction: column;
+    text-align: center;
+    background-color:antiquewhite;
+    width: 100%;
+
+}
+.auth-form-container,
+.login-form,
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:sienna;
+    margin-top: 180px;
+}

@@ -22,7 +22,7 @@
 }
 
 h1,h2,h3,h4,h6 {
-    color:tan;
+    color:maroon;
     text-align: center;
 }
 .footer {
@@ -44,4 +44,18 @@ h1,h2,h3,h4,h6 {
     text-align: center;
     color:sienna;
     margin-top: 180px;
+}
+.grid {
+    margin-left: 100px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2, 500px);
+    grid-gap: 50px;
+}
+.wow{
+    width: 500px;
+    height: 500px;
+}
+.rosu{
+    color: red;
 }

@@ -8,6 +8,9 @@ import Cos from './routes/Cos.js';
 import Comanda from './routes/Comanda.js';
 import Stare from './routes/Stare.js';
 import Error from './routes/Error.js';
+import McDonalds from './Restaurante/McDonalds.js';
+import Toskana from './Restaurante/Toskana.js';
+import Nutrient from './Restaurante/Nutrient.js';
 function App() {
   return (
     <div className="App">
@@ -21,6 +24,9 @@ function App() {
           <Route path="/comanda" element={<Comanda/>} />
           <Route path="/stare" element={<Stare/>} />
           <Route path="/*" element={<Error/>}/>
+          <Route path="/mc" element={<McDonalds/>}/>
+          <Route path="/toskana" element={<Toskana/>}/>
+          <Route path="/nutri" element={<Nutrient/>}/>
 
         </Routes>
       </BrowserRouter>

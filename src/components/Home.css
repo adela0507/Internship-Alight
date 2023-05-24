@@ -1,3 +1,13 @@
 .content h1 {
     color: #f6f3f4;
 }
+.centru {
+    text-align: center;
+    align-items: center;
+
+
+}
+.link-no-underline {
+    text-decoration: none;
+    color: rgb(77, 29, 7);
+}
